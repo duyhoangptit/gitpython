@@ -1,0 +1,7 @@
+from datetime import date
+
+today = date.today()
+print("Today's date: ", today)
+
+d2=today.strftime("%B %d, %Y")
+print("d2=", d2)
